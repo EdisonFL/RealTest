@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>823</width>
+    <height>672</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>.AppleSystemUIFont</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>156</width>
+      <height>572</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="14" column="0">
+      <widget class="QLabel" name="label_32">
+       <property name="text">
+        <string>Port31</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_30">
+       <property name="text">
+        <string>Port22</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_24">
+       <property name="text">
+        <string>Port27</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="PortI"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_23">
+       <property name="text">
+        <string>Port24</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_27">
+       <property name="text">
+        <string>Port25</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string>Port28</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_26">
+       <property name="text">
+        <string>Port23</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QComboBox" name="PortS"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_28">
+       <property name="text">
+        <string>Port18</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QComboBox" name="PortQ"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="PortJ"/>
+     </item>
+     <item row="14" column="1">
+      <widget class="QComboBox" name="PortV"/>
+     </item>
+     <item row="13" column="1">
+      <widget class="QComboBox" name="PortU"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_22">
+       <property name="text">
+        <string>Port20</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="PortO"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QComboBox" name="PortP"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="PortK"/>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Port30</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QComboBox" name="PortT"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>Port26</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>Port19</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="PortN"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="PortL"/>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_31">
+       <property name="text">
+        <string>Port29</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="PortM"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QComboBox" name="PortR"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>Port21</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_21">
+       <property name="text">
+        <string>Port17</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="PortH"/>
+     </item>
+     <item row="15" column="1">
+      <widget class="QComboBox" name="PortW"/>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>Port32</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="titlelabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>801</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>STKaiti</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>REL TEST</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="MesDisplay">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>220</y>
+      <width>311</width>
+      <height>441</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>151</width>
+      <height>572</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="14" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Port15</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Port4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QComboBox" name="PortC"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="Port7"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Port1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="Port3"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="Port1"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Port6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="Port8"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Port2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Port5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Port9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QComboBox" name="PortA"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>Port12</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Port11</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Port8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QComboBox" name="Port9"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="Port4"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Port10</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Port3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QComboBox" name="PortD"/>
+     </item>
+     <item row="13" column="1">
+      <widget class="QComboBox" name="PortE"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QComboBox" name="PortB"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="Port6"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="Port5"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="Port2"/>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Port13</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QComboBox" name="PortF"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Port7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Port14</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QComboBox" name="PortG"/>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>Port16</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>90</y>
+      <width>311</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="BeginButton">
+       <property name="text">
+        <string>开始测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="StopButton">
+       <property name="text">
+        <string>停止测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ClearButton">
+       <property name="text">
+        <string>清理显示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>90</y>
+      <width>171</width>
+      <height>330</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_39">
+       <property name="text">
+        <string>TBoard3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_37">
+       <property name="text">
+        <string>TBoard1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_42">
+       <property name="text">
+        <string>TBoard6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_38">
+       <property name="text">
+        <string>TBoard2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="Tboard6"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_41">
+       <property name="text">
+        <string>TBoard5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="Tboard8"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="Tboard2"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="Tboard7"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_43">
+       <property name="text">
+        <string>TBoard7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_40">
+       <property name="text">
+        <string>TBoard4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="Tboard1"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="Tboard4"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="Tboard5"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="Tboard3"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_44">
+       <property name="text">
+        <string>TBoard8</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="RePortButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>450</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>刷新端口配置</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
