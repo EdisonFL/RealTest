@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     qDebug() << "Main Thread=" << QThread::currentThread();
+    qDebug() << "Main Thread=" << QThread::currentThread();
     //ui->Picturelabel->setPixmap(QPixmap("/Users/RELTEST/1.jpg"));
     //ui->Picturelabel->setScaledContents(true);
     QThreadPool::globalInstance()->setMaxThreadCount(1000);
